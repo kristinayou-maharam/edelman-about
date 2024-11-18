@@ -11,6 +11,21 @@
     margin-top: 100px;
 }
 
+.full-width-img-olive{
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+body{
+    font-family: 'EdelmanChromatic-GrotesqueRegular';
+}
+
+p{
+    font-family: 'EdelmanChromatic-GrotesqueRegular' !important;
+    color: #4D4726;
+}
+
 h2{
     color: #F1EFE1;
     font-size: 3em;
@@ -28,7 +43,14 @@ body{
 .section-header{
     position: absolute;
     text-align: center;
-    margin-top: -70vh;
+    margin-top: -50%;
+    width: 90%;
+}
+
+.section-header-olive{
+    position: absolute;
+    text-align: center;
+    margin-top: -30%;
     width: 90%;
 }
 
@@ -248,3 +270,14 @@ margin-bottom: 100px;
     width: 100%;
   }
 
+  #scroll-to-top{
+    display: inline-block;
+    z-index: 0;
+    position: fixed;
+    top: 95vh;
+    right: 10%;
+  }
+
+  #scroll-to-top p a{
+    text-decoration-color: #4D4726;
+  }
