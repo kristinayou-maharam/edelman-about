@@ -1,8 +1,5 @@
-import SimpleParallax from "../node_modules/simple-parallax-js/vanilla";
 
-
-
-document.addEventListener('DOMContentLoaded', function() {
-var images = document.querySelectorAll('img');
-new SimpleParallax(images);
+let images = document.getElementsByClassName('full-width-img');
+new SimpleParallax(images, {
+    scale: 1.5
 });
