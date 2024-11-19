@@ -273,12 +273,27 @@ margin-bottom: 100px;
 
   #scroll-to-top{
     display: inline-block;
+    text-decoration: none;
+    text-decoration-color: #4D4726;
     z-index: 0;
     position: fixed;
     top: 95vh;
     right: 10%;
   }
 
+
   #scroll-to-top p a{
     text-decoration-color: #4D4726;
+    text-decoration: none;
+  }
+
+
+
+  #scroll-to-top p a:visited{
+    color: #4D4726;
+  }
+
+  #scroll-to-top p a:hover{
+    text-decoration-color: #4D4726;
+    color: #4D4726;
   }
