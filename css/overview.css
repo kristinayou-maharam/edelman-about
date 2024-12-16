@@ -6,7 +6,7 @@
 }
 
 .full-width-img{
-    width: 100%;
+    width: 90%;
     height: 40%;
     margin-left: 0%;
     margin-bottom: 0px;
@@ -88,6 +88,37 @@ body{
     color: white;
     font-size: 12px;
     margin-top: 10px;
+}
+
+.bodycopy-full-width{
+    /* background-color: #edede8; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+}
+
+.bodycopy-full-width-olive{
+    background-color: #3c3820;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.bodycopy-full-width-olive p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.bodycopy-full-width p{
+    color: #4D4726;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .bodycopy-right p{
